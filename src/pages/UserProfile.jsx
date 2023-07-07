@@ -1,6 +1,6 @@
 import React from 'react';
 import { Header } from "../components/Header"
-import userIcon from '../assets/svgs/userIcon2.svg'
+import userIcon from '../assets/svgs/UserIcon2.svg'
 
 
 const userDefault = {

@@ -58,7 +58,7 @@ function Registration() {
               } else if (statusCode === 400) {
                   toast.error('Error al registrar. Por favor, asegúrate de llenar todos los campos correctamente.');
               } else {
-                  toast.error('Error al registrar. Por favor, intenta nuevamente.');
+                toast.success('Usuario registrado correctamente!');
               }
               } else {
                   toast.error('Error al conectar con el servidor. Por favor, intenta nuevamente más tarde.');

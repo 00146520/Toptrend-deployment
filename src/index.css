@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Globales*/
+html{
+    background-color: #f2e9e4;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.hr-custom {
+  border: none;
+  border-top: 1px solid black;
+}
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
